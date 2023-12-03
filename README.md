@@ -1,10 +1,8 @@
-# NBEATS
-
-To use N-BEATS for Bitcoin price prediction, you can follow a similar approach as before. Here's a general outline of the steps:
+To use N-BEATS for stock price prediction, you can follow a similar approach as before. Here's a general outline of the steps:
 
 Prepare Data:
 
-Load historical Bitcoin price data. You may use libraries like pandas to handle the data.
+Load historical Stock price data. You may use libraries like pandas to handle the data.
 Normalize the data using MinMaxScaler.
 Build N-BEATS Model:
 
@@ -13,10 +11,11 @@ Adjust the parameters such as backcast_length, forecast_length, num_blocks, and 
 Compile and Train Model:
 
 Compile the model using an appropriate optimizer and loss function.
-Train the model using historical Bitcoin price data. Split the data into training and testing sets.
+Train the model using historical Stock price data. Split the data into training and testing sets.
 Evaluate the Model:
 
 Evaluate the model on the test set and analyze its performance using metrics like Mean Squared Error (MSE).
 Make Predictions:
 
-Use the trained model to make predictions on future Bitcoin prices.
+Use the trained model to make predictions on future Stock prices.
+
